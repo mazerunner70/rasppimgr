@@ -1,0 +1,9 @@
+
+{% with my_array='one two three five' %}
+
+    <ul>
+        {% for i in my_array.split %}
+            <li>here {{ i }}</li>
+        {% endfor %}
+    </ul>
+{% endwith %}
