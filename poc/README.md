@@ -30,7 +30,21 @@ Deploy server through docker and kubernetes
 Based in dir poc/sampledjango
 
 #### Using a virtual env
-As 
+As django is a python lib I want to keep it isolated from other python on my machine, so using virtualenv
+https://docs.python-guide.org/dev/virtualenvs/#lower-level-virtualenv
+Don't forget to activate and deactivate the venvs! This will neeed you to be in bash shell
+Tags of milestones in git
+Tag | Milestone
+poc-v0.1 | part one tutorial complete: https://docs.djangoproject.com/en/3.1/intro/tutorial01/
+
+## Deploy it through docker
+https://docs.docker.com/compose/django/
+
+* If a docker image doesn;t work correctly find an image that worked and run it directly and then inspect files system etc to see the problem.
+* Use command: docker run --rm -it <<image id>> bash
+* Use docker-compose build, up to rebuild while in dev/test
+
+ 
 
 
 
